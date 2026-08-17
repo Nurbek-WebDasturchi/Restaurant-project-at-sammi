@@ -134,3 +134,50 @@ function setClock(wrapper, deadline) {
   }
 }
 setClock(".timer", deadline);
+// METHOD POST to Telegram Bot
+const form = document.querySelector(".modal-form"),
+  sendBtn = document.querySelector(".send-button"),
+  BOT_API_TOKEN = "8384790566:AAGrjnxqi490fgvfP47-wcxcxwopjioKsNk",
+  CHAT_ID = "6401123819";
+form.addEventListener("submit", (event) => {
+  event.preventDefault();
+  const formData = new FormData(form);
+  const object = {};
+  formData.forEach((value, key) => {
+    object[key] = value;
+  });
+  const json = JSON.stringify(object);
+  if (!json) {
+    return json;
+  } else {
+    fetch(`https://api.telegram.org/bot${BOT_API_TOKEN}/sendMessage`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        chat_id: CHAT_ID,
+        text: `Full-name: ${object.name}, Phone: ${object.phone}`,
+      }),
+    })
+      .then((response) => {
+        return response.json();
+      })
+      .then((data) => {
+        form.reset();
+        sendBtn.textContent = "";
+        sendBtn.textContent = "Yuborildi!";
+        setTimeout(() => {
+          sendBtn.textContent = "Contect Us";
+        }, 1000);
+        setTimeout(closeModal, 2000);
+        console.log(data);
+      })
+      .catch(() => {
+        console.log(
+          "Telegram bilan bog'lanishda nimadir xato ketdi. status:404",
+        );
+      })
+      .finally(() => {
+        console.log("Telegram Fetching is updated just now");
+      });
+  }
+});
