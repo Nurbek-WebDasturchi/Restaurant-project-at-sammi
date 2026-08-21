@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Food Lover</title>
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous" />
     <!-- Style Link -->
     <link rel="stylesheet" href="./style.css" />
     <!-- Fontawsome -->
@@ -175,45 +181,7 @@
             <p>More than 25+ years of experience</p>
           </div>
           <div class="offers-items">
-            <!-- <div>
-              <img src="./img/offer1.png" alt="Quattro Pasta" />
-              <div>
-                <h3>Quattro Pasta</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam,
-                  quibusdam.
-                </p>
-                <p>
-                  <del>$ 55.00</del> <span class="primary-text">$18.00</span>
-                </p>
-              </div>
-            </div>
-            <div>
-              <img src="./img/offer2.png" alt="Vegertarian Pasta" />
-              <div>
-                <h3>Vegertarian Pasta</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam,
-                  quibusdam.
-                </p>
-                <p>
-                  <del>$ 55.00</del> <span class="primary-text">$18.00</span>
-                </p>
-              </div>
-            </div>
-            <div>
-              <img src="./img/offer3.png" alt="Quattro Pasta" />
-              <div>
-                <h3>Gluten-Free Pasta</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam,
-                  quibusdam.
-                </p>
-                <p>
-                  <del>$ 55.00</del> <span class="primary-text">$18.00</span>
-                </p>
-              </div>
-            </div> -->
+            <!-- Offers will come here from class.js -->
           </div>
         </div>
       </section>
@@ -225,8 +193,8 @@
             <h2>Our Special Menu</h2>
             <p>Order two and get third for free</p>
           </div>
-          <div class="menu-items">
-            <div class="menu-items-left">
+          <div class="menu-items row mx-0">
+            <!-- <div class="col-12 col-md-6">
               <div class="menu-item">
                 <img src="./img/food1.png" alt="LASAL Cheese" />
                 <div>
@@ -237,6 +205,8 @@
                   </p>
                 </div>
               </div>
+            </div>
+            <div class="col-12 col-md-6">
               <div class="menu-item">
                 <img src="./img/food2.png" alt="JUMBO CRAB SHRIMP" />
                 <div>
@@ -249,6 +219,8 @@
                   </p>
                 </div>
               </div>
+            </div>
+            <div class="col-12 col-md-6">
               <div class="menu-item">
                 <img src="./img/food3.png" alt="KOKTAIL JUCIE" />
                 <div>
@@ -261,6 +233,20 @@
                   </p>
                 </div>
               </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="menu-item">
+                <img src="./img/food8.jpeg" alt="SPANISH PIES" />
+                <div>
+                  <h3>SPANISH PIES <span class="primary-text">$14.00</span></h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. At,
+                    explicabo.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
               <div class="menu-item">
                 <img src="./img/food4.png" alt="CAPO STEAK" />
                 <div>
@@ -271,11 +257,14 @@
                   </p>
                 </div>
               </div>
+            </div>
+            <div class="col-12 col-md-6">
               <div class="menu-item">
                 <img src="./img/food5.png" alt="ORGANIC FRUIT SALAD" />
                 <div>
                   <h3>
-                    ORGANIC FRUIT SALAD <span class="primary-text">$8.00</span>
+                    ORGANIC FRUIT SALAD
+                    <span class="primary-text">$8.00</span>
                   </h3>
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. At,
@@ -283,6 +272,8 @@
                   </p>
                 </div>
               </div>
+            </div>
+            <div class="col-12 col-md-6">
               <div class="menu-item">
                 <img src="./img/food6.png" alt="CHEESE PIZZA" />
                 <div>
@@ -294,7 +285,7 @@
                 </div>
               </div>
             </div>
-            <div class="menu-items-right">
+            <div class="col-12 col-md-6">
               <div class="menu-item">
                 <img src="./img/food7.jpeg" alt="KOFTA MEAT" />
                 <div>
@@ -305,16 +296,8 @@
                   </p>
                 </div>
               </div>
-              <div class="menu-item">
-                <img src="./img/food8.jpeg" alt="SPANISH PIES" />
-                <div>
-                  <h3>SPANISH PIES <span class="primary-text">$14.00</span></h3>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. At,
-                    explicabo.
-                  </p>
-                </div>
-              </div>
+            </div>
+            <div class="col-12 col-md-6">
               <div class="menu-item">
                 <img src="./img/food9.jpeg" alt="CHEESE TOST" />
                 <div>
@@ -325,6 +308,8 @@
                   </p>
                 </div>
               </div>
+            </div>
+            <div class="col-12 col-md-6">
               <div class="menu-item">
                 <img src="./img/food10.jpeg" alt="FRUIT SALAD" />
                 <div>
@@ -335,6 +320,8 @@
                   </p>
                 </div>
               </div>
+            </div>
+            <div class="col-12 col-md-6">
               <div class="menu-item">
                 <img src="./img/food11.jpeg" alt="CHICKEN SHAWARMA" />
                 <div>
@@ -347,6 +334,8 @@
                   </p>
                 </div>
               </div>
+            </div>
+            <div class="col-12 col-md-6">
               <div class="menu-item">
                 <img src="./img/food12.jpeg" alt="MEGA CHEESE PIZZA" />
                 <div>
@@ -359,7 +348,7 @@
                   </p>
                 </div>
               </div>
-            </div>
+            </div> -->
           </div>
           <div style="display: flex; justify-content: center">
             <div class="btn__group">
@@ -529,8 +518,14 @@
         </div>
       </div>
     </div>
-
+    <!-- Bootstrap js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"></script>
+    <!-- just Vanilla JS -->
     <script src="./js/script.js"></script>
     <script src="./js/class.js"></script>
+    <script src="./js/json-server.js"></script>
   </body>
 </html>

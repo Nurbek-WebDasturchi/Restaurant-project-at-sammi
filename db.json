@@ -1,0 +1,76 @@
+{
+  "menu": [
+    {
+      "src": "./img/food1.png",
+      "title": "LASAL CHEESE",
+      "cost": "$18.00",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. At, explicabo."
+    },
+    {
+      "src": "./img/food2.png",
+      "title": "JUMBO CRAB SHRIMP",
+      "cost": "$24.00",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. At, explicabo."
+    },
+    {
+      "src": "./img/food3.png",
+      "title": "KOKTAIL JUCIE",
+      "cost": "$12.00",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. At, explicabo."
+    },
+    {
+      "src": "./img/food8.jpeg",
+      "title": "SPANISH PIES",
+      "cost": "$14.00",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. At, explicabo."
+    },
+    {
+      "src": "./img/food4.png",
+      "title": "CAPO STEAK",
+      "cost": "$60.00",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. At, explicabo."
+    },
+    {
+      "src": "./img/food5.png",
+      "title": "ORGANIC FRUIT SALAD",
+      "cost": "$8.00",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. At, explicabo."
+    },
+    {
+      "src": "./img/food6.png",
+      "title": "CHEESE PIZZA",
+      "cost": "$18.00",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. At, explicabo."
+    },
+    {
+      "src": "./img/food7.jpeg",
+      "title": "KOFTA MEAT",
+      "cost": "$40.00",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. At, explicabo."
+    },
+    {
+      "src": "./img/food9.jpeg",
+      "title": "CHEESE TOST",
+      "cost": "$6.00",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. At, explicabo."
+    },
+    {
+      "src": "./img/food10.jpeg",
+      "title": "FRUIT SALAD",
+      "cost": "$14.00",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. At, explicabo."
+    },
+    {
+      "src": "./img/food11.jpeg",
+      "title": "CHICKEN SHAWARMA",
+      "cost": "$20.00",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. At, explicabo."
+    },
+    {
+      "src": "./img/food12.jpeg",
+      "title": "MEGA CHEESE PIZZA",
+      "cost": "$30.00",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. At, explicabo."
+    }
+  ]
+}
